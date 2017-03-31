@@ -5,7 +5,7 @@ app=Flask(__name__)
 
 @app.route('/') # instancing one page (homepage)
 def home():
-    return "Website content goes here." # output will be mapped to URL above
+    return render_template("home.html")
 
 
 @app.route('/about/') # instancing one page (homepage)
