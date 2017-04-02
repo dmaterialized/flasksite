@@ -1,36 +1,18 @@
-/*h1{
-  font-family:"Helvetica";
-  font-size: 20px;
-  padding: 10px 20px;
-}
-#container{
-  padding-left: 45%;
-  padding-right: 45%;
-}
-p{
-  font-family: "Helvetica";
-  font-size:200px;
-  margin:4px;
-}
-
-body{
-  padding: 80px;
-}*/
-
-
 body {
-  margin:0;
-  padding:0;
-  font-family: 'helvetica neue', helvetica, arial,sans-serif;
-  color: #444;
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #060;
 }
 
-/* formatting the header area */
+/*
+ * Formatting the header area
+ */
 
-header{
-  background-color:#DFB887;
-  height:35px;
-  width:100%;
+header {
+  background-color: #DFB887;
+  height: 35px;
+  width: 100%;
   opacity: .9;
   margin-bottom: 10px;
 }
@@ -40,11 +22,11 @@ header h1.logo {
   font-size: 1.7em;
   color: #fff;
   text-transform: uppercase;
-  float:left;
+  float: left;
 }
 
-header h1.logo:hover{
-  color:#fff;
+header h1.logo:hover {
+  color: #fff;
   text-decoration: none;
 }
 
@@ -52,40 +34,45 @@ header h1.logo:hover{
  * Center the body content
  */
 
- div.home{
-   padding:10px 0 30px 0;
-   background-color:#E6E6FA;
-   -webkit-border-radius: 6px;
-      -moz-border-radius: 6px;
-           border-radius: 6px;
- }
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
 
-div.about {
+div.home {
   padding: 10px 0 30px 0;
-  background-color: : #E6E6FA;
+  background-color: #E6E6FA;
   -webkit-border-radius: 6px;
      -moz-border-radius: 6px;
           border-radius: 6px;
 }
 
-h2{
-  font-size: 1em;
+div.about {
+  padding: 10px 0 30px 0;
+  background-color: #E6E6FA;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+}
+
+h2 {
+  font-size: 3em;
   margin-top: 40px;
-  text-align:center;
+  text-align: center;
   letter-spacing: -2px;
 }
 
-h3{
+h3 {
   font-size: 1.7em;
   font-weight: 100;
   margin-top: 30px;
-  text-align:center;
+  text-align: center;
   letter-spacing: -1px;
   color: #999;
 }
 
-.menu{
-  float:right;
+.menu {
+  float: right;
   margin-top: 8px;
 }
 
@@ -93,6 +80,11 @@ h3{
   display: inline;
 }
 
-.menu li {
+.menu li + li {
+  margin-left: 35px;
+}
 
+.menu li a {
+  color: #444;
+  text-decoration: none;
 }
